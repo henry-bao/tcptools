@@ -100,21 +100,17 @@ traceroute to www.microsoft.com (23.44.161.156), 30 hops max, 60 byte packets
  ```
 
 1. Target server's IP address:
-
    - www.amazon.com: 13.224.30.153
    - www.google.com: 142.250.217.100
    - www.microsoft.com: 23.44.161.156
 
 2. Number of hops needed to reach the target:
-
    - www.amazon.com: 13 hops
    - www.google.com: 11 hops
    - www.microsoft.com: 9 hops
-
-        Yes, ISP can be identified from the intermediate server DNS names. It appears to be Qwest, as seen in the DNS names like "tukw.qwest.net".
+   - Yes, ISP can be identified from the intermediate server DNS names. It appears to be Qwest, as seen in the DNS names like "tukw.qwest.net".
 
 3. The class of IP address for each major step in the trip:
-
    - www.amazon.com:
      - HENRYPC.mshome.net (172.24.64.1) - Class B
      - modem.domain (192.168.0.1) - Class C
